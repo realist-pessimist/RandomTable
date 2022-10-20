@@ -49,7 +49,7 @@ fun HomeScreen(
             items(items = columns, key = { it }) {
                 var rows by remember {
                     mutableStateOf(
-                        List(100) { Cell() }
+                        List(10) { Cell() }
                     )
                 }
                 LazyRow(
